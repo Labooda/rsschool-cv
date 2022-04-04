@@ -15,3 +15,30 @@ Studied at Bauman Moscow State Technical University for 4 years, specializing in
 - JavaScript Basics
 - Git, GitHub
 - VS Code
+
+## **Code example:**
+**N-th Fibonacci KATA from Codewars:** Write a function that when given a number (n) returns the n-th number in the Fibonacci Sequence.
+
+```javascript
+function nthFibo(n) {
+  arr = [0, 1];
+  let count = 1;
+  while (arr.length <= n) {
+    arr.push(arr[count] + arr[count - 1]);
+    count++;
+  }
+  return arr[arr.length - 2];
+}
+```
+
+## Courses:
+
+- HTML and CSS on the [w3schools](https://www.w3schools.com/) (completed)
+- JavaScript on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+- RS Schools Course «JavaScript/Front-end» (in progress)
+
+## Languages:
+
+- English - Intermediate
+- Russian - Fluent
+- Сouple of Caucasian languages that you have not heard of - native
